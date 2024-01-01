@@ -1,0 +1,56 @@
+<!-- res/layout/activity_sales.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spinner for "Send To" -->
+    <Spinner
+        android:id="@+id/spinnerSendTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:prompt="@string/select_send_to"/>
+
+    <!-- Spinner for "Book Category" -->
+    <Spinner
+        android:id="@+id/spinnerBookCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:prompt="@string/select_book_category"/>
+
+    <!-- Spinner for "Books" -->
+    <Spinner
+        android:id="@+id/spinnerBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:prompt="@string/select_book"/>
+
+    <!-- EditText for "Amount" -->
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/amount_hint"/>
+
+    <!-- EditText for "Date Sent" -->
+    <EditText
+        android:id="@+id/etDateSent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/date_sent_hint"/>
+
+    <!-- Button for "Send Out" -->
+    <Button
+        android:id="@+id/btnSendOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_out"/>
+</LinearLayout>

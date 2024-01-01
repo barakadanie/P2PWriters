@@ -1,0 +1,59 @@
+<!-- res/layout/item_book.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/tvSendTo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tvBookCategory"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@id/tvSendTo"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvBookName"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@id/tvBookCategory"/>
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toEndOf="@id/tvBookName"/>
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@id/tvAmount"/>
+</RelativeLayout>

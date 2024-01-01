@@ -1,0 +1,53 @@
+<!-- res/layout/item_book.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/bookNameTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/bookCategoryTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/bookNameTextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/bookTotalsTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/bookCategoryTextView"/>
+    <TextView
+        android:id="@+id/dateAddedTextView"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/bookTotalsTextView"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953573909521",
+    "project_id": "p2p-writers",
+    "storage_bucket": "p2p-writers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953573909521:android:4db51f2b88eb775bff3db0",
+        "android_client_info": {
+          "package_name": "com.theark.p2pwriters"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxcU0_jyT1N0p5mQksfxR0E-fQ3lHbfWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

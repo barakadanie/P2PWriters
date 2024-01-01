@@ -1,0 +1,80 @@
+<!-- res/layout/activity_login.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="24dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"/>
+
+    <!-- Google Sign-In Button -->
+    <Button
+        android:id="@+id/googleSignInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Google"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"/>
+
+    <!-- Register TextView -->
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register here."
+        android:layout_below="@id/googleSignInButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@color/darkblue"/>
+
+    <!-- Forgot Password TextView -->
+    <TextView
+        android:id="@+id/forgotPasswordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:layout_below="@id/registerTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="24dp"
+        android:textColor="@color/darkblue"/>
+
+</RelativeLayout>

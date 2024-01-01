@@ -1,0 +1,24 @@
+<!-- res/menu/bottom_navigation_menu.xml -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_books"
+        android:title="@string/books"
+        android:icon="@drawable/baseline_menu_book_24"/>
+    <item
+        android:id="@+id/action_sales"
+        android:title="@string/sales"
+        android:icon="@drawable/baseline_point_of_sale_24"/>
+    <item
+        android:id="@+id/action_category"
+        android:title="BookCategory"
+        android:icon="@drawable/category_24"/>
+    <item
+        android:id="@+id/action_salesperson"
+        android:title="@string/salesperson"
+        android:icon="@drawable/baseline_person_3_24"/>
+    <item
+        android:id="@+id/action_reports"
+        android:title="@string/reports"
+        android:icon="@drawable/baseline_history_edu_24"/>
+</menu>
